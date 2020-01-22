@@ -1,0 +1,64 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #fff;
+}
+
+/* Slides */
+.mytestimonialsSlides {
+    display: none;
+    padding: 35px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* The dot/bullet/indicator container */
+.dotslides-container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+
+/* The dots/bullets/indicators */
+.dotslides {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dotslides:hover {
+    background-color: #ff0000;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: red;
+}
