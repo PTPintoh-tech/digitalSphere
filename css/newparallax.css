@@ -1,5 +1,5 @@
 .hero-section {
-    background: url("../images/DBS_MicroSite_Home_Parallax.jpg");
+    background: url("../images/Parallax/DBS_MicroSite_Home_Parallax.jpg");
     padding: 80px;
     background-attachment: fixed;
     background-position: center;
@@ -8,8 +8,8 @@
 }
 
 .hero-section_b {
-    background: url("http://field.ts.fujitsu.com/images/DBS/HEADER/DS_MicroSite_Header_DISCOVERY_B_450px_Blured.png");
-    padding: 80px;
+    background: url("../images/Parallax/DBS_MicroSite_Discovery_Parallax.jpg");
+    padding: 60px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,6 +18,15 @@
 
 .hero-section_c {
     background: url("http://field.ts.fujitsu.com/images/DBS/HEADER/DS_MicroSite_Header_DISCOVERY_B_450px-0000000.png");
+    padding: 80px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section_d {
+    background: url("../images/Parallax/DBS_MicroSite_Home_Parallax.png");
     padding: 80px;
     background-attachment: fixed;
     background-position: center;
