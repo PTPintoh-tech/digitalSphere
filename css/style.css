@@ -3,7 +3,7 @@
 
 
 body {
-  background-color: #f9f9f9;
+  background-color: #fff;
   color: #505458;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
@@ -269,10 +269,9 @@ h6 {
 }
 
 .bg-img-1 {
-  background: url("../images/DBS_MicroSite_Home_Header_BBB.png") center;
+  background: url("../images/Headers/DBS_MicroSite_Home_Header.png") center;
   position: relative;
   background-size: cover;
-  box-shadow: 1px 1px 5px grey;
 }
 
 .bg-img-1a {
