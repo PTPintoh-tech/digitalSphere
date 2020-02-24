@@ -206,6 +206,11 @@ h6 {
   background-color: #28282e !important;
 }
 
+.bg-red {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stars.jpg");
+}
+
+
 
 #myBtnToTop {
   display: none;
@@ -1038,6 +1043,18 @@ textarea.form-control {
 
 .star-gazing {
   background: url(../images/stars.jpg) center no-repeat;
+  opacity: 0.9;
+}
+
+
+
+.hero-texting {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .actividades-grid-item i {
@@ -1239,6 +1256,10 @@ textarea.form-control {
 
 .bg-faded {
   background-color: #28282e
+}
+
+.bg-faded-bk {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stars.jpg");
 }
 
 .bg-faded-discovery {
