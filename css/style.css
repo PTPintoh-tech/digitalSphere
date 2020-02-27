@@ -206,8 +206,12 @@ h6 {
   background-color: #28282e !important;
 }
 
+.bg-black {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Question_2_Bg.jpg");
+}
+
 .bg-red {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stars.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Question_3_Bg.jpg");
 }
 
 
@@ -1262,6 +1266,10 @@ textarea.form-control {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stars.jpg");
 }
 
+.bg-faded-black {
+  background-color: #000;
+}
+
 .bg-faded-discovery {
   background-color: #C8BF12;
 }
@@ -1307,5 +1315,47 @@ textarea.form-control {
     z-index: 1;
     margin-top: -3rem;
     max-width: 50vw
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUpBig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUpBig {
+  animation-name: fadeInUpBig;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
   }
 }
