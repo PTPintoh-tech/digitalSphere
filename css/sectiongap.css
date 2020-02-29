@@ -1,0 +1,299 @@
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+.section_gap {
+    padding: 120px 0;
+}
+
+@media (max-width: 991px) {
+    .section_gap {
+        padding: 80px 0;
+    }
+}
+
+.section_gap_top {
+    padding-top: 120px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_top {
+        padding-top: 80px;
+    }
+}
+
+.section_gap_bottom {
+    padding-bottom: 120px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_bottom {
+        padding-bottom: 80px;
+    }
+}
+
+/* End Home Banner Area css
+  ============================================================================================ */
+.section_gap {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* Recent Update Area css
+============================================================================================ */
+/* Start Big Features Area css
+============================================================================================ */
+.big_features .common_style p {
+    padding-right: 20px;
+}
+
+.features_content {
+    position: relative;
+}
+
+.features_content .border-line {
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    border: 1px dashed #dbdade;
+}
+
+.features_content .shape1 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -8px;
+}
+
+.features_content .shape2 {
+    position: absolute;
+    left: 48%;
+    top: 47%;
+    margin-left: -15px;
+}
+
+.features_content .shape3 {
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    margin-left: -9px;
+}
+
+.bottom-features {
+    margin-top: 120px;
+}
+
+.bottom-features .shape3 {
+    top: 64%;
+}
+
+
+/* Main Title Area css
+============================================================================================ */
+.main_title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+@media (max-width: 767px) {
+    .main_title {
+        margin-bottom: 40px;
+    }
+}
+
+.main_title h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 36px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.main_title p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+.main_title.white h2 {
+    color: #fff;
+}
+
+.main_title.white p {
+    color: #fff;
+    opacity: .6;
+}
+
+.main_title .top_title {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+/* End Main Title Area css
+============================================================================================ */
+/* Start Gradient Area css
+============================================================================================ */
+.gradient-bg,
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link,
+.blog_right_sidebar .widget_title,
+.blog_right_sidebar .newsletter_widget .bbtns,
+.blog_right_sidebar .tag_cloud_widget ul li a:hover,
+.blog-pagination .page-item.active .page-link,
+.blog-pagination .page-link:hover,
+.comments-area .btn-reply:hover,
+.recent_update_inner .nav.nav-tabs li a.active,
+.recent_update_inner .nav.nav-tabs li a:hover,
+.common_style .line:after,
+.price_item:hover .price_head,
+.price_item:hover .price_footer,
+.testimonial_area .active_testimonial .owl-dots,
+.news_widget .input-group .sub-btn {
+    background: -webkit-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    background: -moz-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    background: -o-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+}
+
+/* Start Big Features Area css
+	============================================================================================ */
+.big_features {
+    .features_content {
+        .big_f_left {
+            text-align: center;
+
+            img {
+                max-width: 350px;
+                margin-bottom: 50px;
+                margin-top: 50px;
+            }
+        }
+
+        p {
+            max-width: 500px;
+        }
+
+        .border-line,
+        .shape1,
+        .shape2,
+        .shape3 {
+            display: none;
+        }
+
+        .bottom-features {
+            .common_style {
+                .primary_btn {
+                    margin-bottom: 50px;
+                }
+            }
+
+            .big_f_left img {
+                margin-bottom: 0px;
+            }
+
+            .border-line,
+            .shape1,
+            .shape2,
+            .shape3 {
+                display: none;
+            }
+        }
+
+        .common_style {
+            p {
+                max-width: 600px;
+            }
+        }
+    }
+}
+
+
+.recent_update_inner .recent_update_text .chart_img img {
+    margin-top: 50px;
+}
+
+
+/* Recent Update Area css
+	============================================================================================ */
+.recent_update_area {
+    padding: 80px 0;
+    background-image: none;
+    background-color: #fcf8ff;
+}
+
+.recent_update_inner {
+    li {
+        a {
+            min-width: 110px;
+        }
+    }
+
+    .recent_update_text {
+        .chart_img img {
+            margin-top: 50px;
+        }
+    }
+}
+
+/* Recent Update Area css
+	============================================================================================ */
+.recent_update_inner {
+    li {
+        a {
+            min-width: 110px;
+        }
+    }
+
+    .recent_update_text {
+        .chart_img img {
+            margin-top: 50px;
+        }
+    }
+}
+
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+.section_gap {
+    padding: 120px 0;
+}
+
+@media (max-width: 991px) {
+    .section_gap {
+        padding: 80px 0;
+    }
+}
+
+.section_gap_top {
+    padding-top: 120px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_top {
+        padding-top: 80px;
+    }
+}
+
+.section_gap_bottom {
+    padding-bottom: 120px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_bottom {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .big_features .features_content .border-line,
+    .big_features .features_content .shape1,
+    .big_features .features_content .shape2,
+    .big_features .features_content .shape3 {
+        display: none;
+    }
+}
