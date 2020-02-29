@@ -33,3 +33,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.hero-section_e {
+    background: url("../images/Parallax/DBS_MicroSite_Home_Solutionc.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
