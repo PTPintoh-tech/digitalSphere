@@ -1,15 +1,13 @@
 .hero-section {
-    background: url("../images/Parallax/DBS_MicroSite_Home_Parallax.jpg");
-    padding: 80px;
+    background: url("../images/Parallax/Parallax_HomePage_450px.jpg");
+    padding: 10rem 0;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hero-section_b {
-    background: url("../images/Parallax/DBS_MicroSite_Discovery_Parallax.jpg");
-    padding: 60px;
+    background: url("../images/Parallax/Parallax.png");
+    padding: 80px 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,8 +15,8 @@
 }
 
 .hero-section_c {
-    background: url("../images/Parallax/DBS_MicroSite_Discovery_Parallax_b.jpg");
-    padding: 80px;
+    background: url("../images/Parallax/DBS_MicroSite_Home_Parallax.png");
+    padding: 100px 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +25,7 @@
 
 .hero-section_d {
     background: url("../images/Parallax/DBS_MicroSite_Home_Parallax.png");
-    padding: 80px;
+    padding: 80px 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,9 +33,32 @@
 }
 
 .hero-section_e {
-    background: url("../images/Parallax/DBS_MicroSite_Home_Solutionc.jpg");
+    background: url("../images/Parallax/DBS_MicroSite_solution_Parallax.jpg");
+    padding: 80px 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-section_f {
+    background: url("../images/Parallax/DBS_MicroSite_Consolidation_Parallax.jpg");
+    padding: 80px 0;
+    background-attachment: fixed;
+
+    background-size: cover;
+}
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
 }

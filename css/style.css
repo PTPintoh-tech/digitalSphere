@@ -215,7 +215,7 @@ h6 {
 }
 
 .bg-red {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Question_3_Bg.jpg");
+  background: url("../images/Parallax/network-4851079_1920.jpg");
 }
 
 .bg-grad {
@@ -1059,6 +1059,9 @@ textarea.form-control {
 .star-gazing {
   background: url(../images/stars.jpg) center no-repeat;
   opacity: 0.9;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
 }
 
 
