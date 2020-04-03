@@ -23,7 +23,7 @@
 }
 
 .services .icon-box:hover::before {
-    background: #C8BF12;
+    background: linear-gradient(235deg, #C8BF12, #bbb211, #C8BF12);
     right: 0;
     top: 0;
     width: 100%;
@@ -107,7 +107,7 @@
     display: block;
     width: 60px;
     height: 2px;
-    background: #eb5d1e;
+    background: #425451;
     bottom: 0;
     left: calc(50% - 30px);
 }
@@ -127,5 +127,6 @@
 
 .services .icon-box:hover {
     transform: translateY(-5px);
-    border-color: #ef7f4d;
+    border-color: #cccccc;
+    background: linear-gradient(235deg, #C8BF12, #f0e85c, #C8BF12);
 }

@@ -211,7 +211,7 @@ h6 {
 }
 
 .bg-black {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Question_2_Bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/black_bg.jpg");
 }
 
 .bg-red {
@@ -223,8 +223,9 @@ h6 {
 }
 
 .bg-green {
-  background-color: #C8BF12 !important;
+  background: linear-gradient(235deg, #C8BF12, #bbb211, #C8BF12);
 }
+
 
 
 #myBtnToTop {
@@ -349,9 +350,9 @@ h6 {
 .bg-gradient {
   background: #2c3e50;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2c3e50, #3498db);
+  background: -webkit-linear-gradient(to left, #1b6698, #5EADEE);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2c3e50, #3498db);
+  background: linear-gradient(to left, #1b6698, #5EADEE);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -677,8 +678,6 @@ textarea.form-control {
   font-size: 16px;
   font-weight: normal;
 }
-
-
 
 
 
@@ -1176,17 +1175,18 @@ textarea.form-control {
   .projects-section .project-text hr {
     border-color: #ff0000;
     border-width: .25rem;
-    width: 30%
+    width: 30%;
+    border-radius: 10px;
   }
 }
 
-
 .projects-section {
-  padding: 10rem 0;
+  padding: 1px 0;
 }
 
 .projects-section .featured-text {
   padding: 2rem;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -1273,11 +1273,11 @@ textarea.form-control {
 }
 
 .bg-faded {
-  background-color: #28282e
+  background: url("../images/Parallax/DBS_MicroSite_solution_Parallax.jpg");
 }
 
 .bg-faded-bk {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stars.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Bg/digital-bg.png");
 }
 
 .bg-faded-black {
@@ -1285,8 +1285,13 @@ textarea.form-control {
 }
 
 .bg-faded-discovery {
-  background-color: #C8BF12;
+  background: linear-gradient(235deg, #C8BF12, #bbb211, #C8BF12);
 }
+
+.bg-faded-consolidation {
+  background: linear-gradient(235deg, #cc0000, #b30000, #990000);
+}
+
 
 .bg-faded-white {
   background-color: #5d5909;

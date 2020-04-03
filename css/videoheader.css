@@ -41,10 +41,6 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url(../mp4/fx_hd_1508.mp4) black no-repeat center center scroll;
-    }
-
-    header video {
-        display: none;
+        background: url(../mp4/fx_hd_1508.mp4) black no-repeat center scroll;
     }
 }
