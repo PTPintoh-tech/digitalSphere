@@ -1,16 +1,3 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
 particlesJS('hero',
 
   {
@@ -23,7 +10,7 @@ particlesJS('hero',
         }
       },
       "color": {
-        "value": ["#9575d0","#ff5d56","#018abe","#08979d","#caaa60","#d23e50"]
+        "value": ["#9575d0", "#ff5d56", "#018abe", "#08979d", "#caaa60", "#d23e50"]
       },
       "shape": {
         "type": ["edge", "path", "circle", "triangle"],
