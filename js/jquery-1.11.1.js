@@ -1,13 +1,7 @@
 (function (global, factory) {
 
 	if (typeof module === "object" && typeof module.exports === "object") {
-		// For CommonJS and CommonJS-like environments where a proper window is present,
-		// execute the factory and get jQuery
-		// For environments that do not inherently posses a window with a document
-		// (such as Node.js), expose a jQuery-making factory as module.exports
-		// This accentuates the need for the creation of a real window
-		// e.g. var jQuery = require("jquery")(window);
-		// See ticket #14549 for more info
+
 		module.exports = global.document ?
 			factory(global, true) :
 			function (w) {
@@ -20,14 +14,10 @@
 		factory(global);
 	}
 
-	// Pass this if window is not defined yet
+
 }(typeof window !== "undefined" ? window : this, function (window, noGlobal) {
 
-	// Can't do this because several apps including ASP.NET trace
-	// the stack via arguments.caller.callee and Firefox dies if
-	// you try to trace through "use strict" call chains. (#13335)
-	// Support: Firefox 18+
-	//
+
 
 	var deletedIds = [];
 
@@ -235,9 +225,7 @@
 
 		noop: function () {},
 
-		// See test/unit/core.js for details concerning isFunction.
-		// Since version 1.3, DOM methods and functions like alert
-		// aren't supported. They return false on IE (#2968).
+
 		isFunction: function (obj) {
 			return jQuery.type(obj) === "function";
 		},
@@ -252,9 +240,7 @@
 		},
 
 		isNumeric: function (obj) {
-			// parseFloat NaNs numeric-cast false positives (null|true|false|"")
-			// ...but misinterprets leading-number strings, particularly hex literals ("0x...")
-			// subtraction forces infinities to NaN
+
 			return !jQuery.isArray(obj) && obj - parseFloat(obj) >= 0;
 		},
 
@@ -269,9 +255,7 @@
 		isPlainObject: function (obj) {
 			var key;
 
-			// Must be an Object.
-			// Because of IE, we also have to check the presence of the constructor property.
-			// Make sure that DOM nodes and window objects don't pass through, as well
+
 			if (!obj || jQuery.type(obj) !== "object" || obj.nodeType || jQuery.isWindow(obj)) {
 				return false;
 			}
@@ -312,14 +296,10 @@
 				typeof obj;
 		},
 
-		// Evaluates a script in a global context
-		// Workarounds based on findings by Jim Driscoll
-		// http://weblogs.java.net/blog/driscoll/archive/2009/09/08/eval-javascript-global-context
+
 		globalEval: function (data) {
 			if (data && jQuery.trim(data)) {
-				// We use execScript on Internet Explorer
-				// We use an anonymous function so that context is window
-				// rather than jQuery in Firefox
+
 				(window.execScript || function (data) {
 					window["eval"].call(window, data);
 				})(data);
@@ -10289,9 +10269,7 @@
 					var doc;
 
 					if (jQuery.isWindow(elem)) {
-						// As of 5/8/2012 this will yield incorrect results for Mobile Safari, but there
-						// isn't a whole lot we can do. See pull request at this URL for discussion:
-						// https://github.com/jquery/jquery/pull/764
+
 						return elem.document.documentElement["client" + name];
 					}
 
@@ -10330,18 +10308,6 @@
 
 
 
-	// Register as a named AMD module, since jQuery can be concatenated with other
-	// files that may use define, but not via a proper concatenation script that
-	// understands anonymous AMD modules. A named AMD is safest and most robust
-	// way to register. Lowercase jquery is used because AMD module names are
-	// derived from file names, and jQuery is normally delivered in a lowercase
-	// file name. Do this after creating the global so that if an AMD module wants
-	// to call noConflict to hide this version of jQuery, it will work.
-
-	// Note that for maximum portability, libraries that are not jQuery should
-	// declare themselves as anonymous modules, and avoid setting a global if an
-	// AMD loader is present. jQuery is a special case. For more information, see
-	// https://github.com/jrburke/requirejs/wiki/Updating-existing-libraries#wiki-anon
 
 	if (typeof define === "function" && define.amd) {
 		define("jquery", [], function () {
@@ -10371,9 +10337,7 @@
 		return jQuery;
 	};
 
-	// Expose jQuery and $ identifiers, even in
-	// AMD (#7102#comment:10, https://github.com/jquery/jquery/pull/557)
-	// and CommonJS for browser emulators (#13566)
+
 	if (typeof noGlobal === strundefined) {
 		window.jQuery = window.$ = jQuery;
 	}
